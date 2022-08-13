@@ -43,3 +43,7 @@ NAME="<新しいプロジェクト名>"
 rm -f App/Siv3DTemplate*
 sed -i -e "s/Siv3DTemplate/${NAME}/g" .gitignore CMakeLists.txt
 ```
+
+# configure.sh
+``configure.sh``を実行することで、対話形式でプロジェクト名を変更できます。
+また、必要に応じて``.idea``または``.vscode``を追加します。
